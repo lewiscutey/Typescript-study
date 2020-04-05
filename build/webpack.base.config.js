@@ -1,9 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: {
-    chapter1: './src/chapter-1/index.ts'
-  },
+  entry: './src/chapter-1/index.ts',
   output: {
     filename: 'app.js'
   },
